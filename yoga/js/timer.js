@@ -1,23 +1,3 @@
-/*var deadline  =  '2019-03-02';
-var dif = Date.parse(deadline) - Date.parse(new Date());
-var time = {
-    total : dif,
-    second : Math.floor((dif/1000)%60),
-    minutes : Math.floor((dif/1000/60)%60),
-    hours : Math.floor(dif/(1000*60*60))
-};
-console.log(time);
-setInterval(function (){ dif = Date.parse(deadline) - Date.parse(new Date());return second = Math.floor((dif/1000)%60)},1000);
-var deadline  =  '2019-03-01';
-var time = {
-    total : Date.parse(deadline) - Date.parse(new Date()),
-    second : (Date.parse(deadline) - Date.parse(new Date())/1000)%60,
-    minutes : Math.floor((((Date.parse(deadline) - Date.parse(new Date())/1000)/60)%60)),
-    hours : Math.floor((((Date.parse(deadline) - Date.parse(new Date())/1000)%60)%60))
-};
-console.log(time);
-
-*/
 var time = {
     hours: document.querySelector('.hours'),
     minute : document.querySelector('.minutes'),
