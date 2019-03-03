@@ -3,7 +3,7 @@ var time = {
     minute : document.querySelector('.minutes'),
     second : document.querySelector('.seconds')
 };
-deadline  =  '2019-03-02';
+deadline  =  '2019-03-03';
 var dif = Date.parse(deadline) - Date.parse(new Date());
 time.second.textContent = Math.floor((dif/1000)%60);
 time.minute.textContent = Math.floor((dif/1000/60)%60);
