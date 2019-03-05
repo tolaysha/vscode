@@ -21,4 +21,5 @@ setInterval(function (){
             time.second.textContent= +time.second.textContent -1; 
         }
     },
+
 1000);
